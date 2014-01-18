@@ -182,6 +182,7 @@ set -o noclobber
 # 2.2) Listing, directories, and motion
 alias ll="ls -alrtFG"
 alias la="ls -A"
+alias lal="ls | sort -f"
 alias l="ls -CF"
 alias dir='ls -G -F'
 alias vdir='ls -G -l'
