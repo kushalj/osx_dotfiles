@@ -1,3 +1,5 @@
+#!/bin/bash
+# Proper header for a Bash script.
 # Copies bash* to ~/ ($HOME) folder
-cp ./bash* ~/
+cp -i ~/osx_dotfiles/.bash* ~/
 
