@@ -197,11 +197,7 @@ alias treeacl='tree -A -C -L 2'
 # 2.3) Text and editor commands
 alias em='emacs -nw'     # No X11 windows
 alias eqq='emacs -nw -Q' # No config and no X11
-<<<<<<< HEAD
-=======
-# export EDITOR='emacs -nw'
-# export VISUAL='emacs -nw' 
->>>>>>> 6e5e941a7a39c337a05ed46d3a44191425a0828c
+
 export EDITOR='vim'
 export VISUAL='vim' 
 
