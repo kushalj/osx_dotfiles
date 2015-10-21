@@ -1,7 +1,7 @@
 # Based on .bash_profile file
 # By Balaji S. Srinivasan (balajis@stanford.edu)
 #
-# Edited by Kushal Joshi (@kushaljoshi)
+# Adapted for OSX Kushal Joshi (@kushaljoshi)
 #
 #
 # Concepts:
@@ -68,15 +68,8 @@ export PATH=/usr/local/sbin:$PATH
 export PATH=/usr/local/heroku/bin:$PATH # Heroku: https://toolbelt.heroku.com/standalone
 
 
-
-# PROJECTS
-alias godjango-venv='source ~/code/dj/godjango/godjango/bin/activate'
-alias kfe-v='source ~/code/dj/kfe/kfe-venv/bin/activate'
-
-
-# TOOLS
-alias vim="/Applications/MacVim.app/Contents/MacOS/Vim -v"
-alias macvim="/Applications/MacVim.app/Contents/MacOS/Vim -v"
-
+# TOOLS - I don't use these anymore
+# alias vim="/Applications/MacVim.app/Contents/MacOS/Vim -v"
+# alias macvim="/Applications/MacVim.app/Contents/MacOS/Vim -v"
 
 

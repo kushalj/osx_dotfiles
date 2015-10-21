@@ -1,7 +1,7 @@
 # Based on .bashrc file
 # By Balaji S. Srinivasan (balajis@stanford.edu)
 #
-# Edited by Kushal Joshi (@kushaljoshi)
+# Adapted for OSX by Kushal Joshi (@kushaljoshi)
 #
 # Concepts:
 #
@@ -226,9 +226,9 @@ set keymap vi
 # alias node_repl="node -e \"require('repl').start({ignoreUndefined: true})\""
 export NODE_DISABLE_COLORS=1
 if [ -s ~/.nvm/nvm.sh ]; then
-    NVM_DIR=~/.nvm
-    source ~/.nvm/nvm.sh
-    nvm use v0.10.12 &> /dev/null # silence nvm use; needed for rsync
+#    NVM_DIR=~/.nvm
+#    source ~/.nvm/nvm.sh
+#    nvm use v0.10.12 &> /dev/null # silence nvm use; needed for rsync
 fi
 
 ## ------------------------------
@@ -238,5 +238,5 @@ fi
 ## Define any user-specific variables you want here.
 source ~/.bashrc_custom
 
-
-PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
+# if needed
+# PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
