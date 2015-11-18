@@ -72,4 +72,8 @@ export PATH=/usr/local/heroku/bin:$PATH # Heroku: https://toolbelt.heroku.com/st
 # alias vim="/Applications/MacVim.app/Contents/MacOS/Vim -v"
 # alias macvim="/Applications/MacVim.app/Contents/MacOS/Vim -v"
 
-
+export HISTIGNORE="ls:ll:pwd"
+export HISTFILESIZE=5000
+export HISTSIZE=5000
+export HISTCONTROL=ignoredups:erasedups
+export HISTTIMEFORMAT="[$(tput setaf 6)%F %T$(tput sgr0)]: " # colorful date
