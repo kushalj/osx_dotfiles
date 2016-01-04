@@ -219,6 +219,10 @@ export LC_ALL=POSIX
 set editing-mode vi
 set keymap vi
 
+# Git shortcuts
+alias gst='git status'
+alias gca='git commit -am'
+alias lg='git lg'
 
 # 2.7) node.js and nvm
 # http://nodejs.org/api/repl.html#repl_repl
@@ -230,6 +234,18 @@ export NODE_DISABLE_COLORS=1
 #    source ~/.nvm/nvm.sh
 #    nvm use v0.10.12 &> /dev/null # silence nvm use; needed for rsync
 # fi
+
+## Define any user-specific variables you want here.
+
+export GOPATH="$HOME/go"
+export GOROOT="/usr/local/go"
+export PATH=$PATH:$GOROOT/bin
+
+source ~/.bashrc_custom
+
+export ANSIBLE_HOSTS=/etc/ansible/hosts
+export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
+
 
 ## ------------------------------
 ## -- 3) User-customized code  --
