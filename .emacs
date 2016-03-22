@@ -6,6 +6,8 @@
 (global-linum-mode t)
 
 (add-hook 'after-init-hook 'global-company-mode)
+(add-to-list 'auto-mode-alist '("\.ex$" . alchemist-mode))
+(add-to-list 'auto-mode-alist '("\.exs$" . alchemist-mode))
 
 (require 'package)
 (setq package-archives '(("ELPA" . "http://tromey.com/elpa/") 
